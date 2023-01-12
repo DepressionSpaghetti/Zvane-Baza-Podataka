@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43567226-D8DE-4415-2420-EE97FA4CA021" name="Timski predstavnik">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:46:40 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>CF874551-4240-712C-5ECB-C54925F8D0E6</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PRE</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="D631A3E8-A07D-F332-EB75-7E5C0FADA066">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:48:47 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tim" id="3C541F39-DF86-915D-462B-53DCBB44382B">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:47:11 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_tima" id="58BA1F8C-744F-5B00-1B6F-4B15B0E2373D">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:52:54 UTC</createdTime>
+<generatorID>35EF0169-8E0E-EE8B-15D8-567B1ABF4E89</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<referedAttribute>4F3085D8-A656-1C68-FC22-93291A9994C7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B8A99901-B67C-B7D5-F0D6-28C42081E385" name="Timski predstavnik PK">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:48:50 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D631A3E8-A07D-F332-EB75-7E5C0FADA066</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

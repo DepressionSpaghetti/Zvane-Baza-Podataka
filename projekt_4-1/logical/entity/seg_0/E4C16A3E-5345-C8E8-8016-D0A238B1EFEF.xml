@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4C16A3E-5345-C8E8-8016-D0A238B1EFEF" name="Adresa kupca">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:17:04 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ADR</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_adresa_kupca" id="663D88CC-CA14-7DB9-7532-C756E572A82C">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:17:15 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulica" id="FDEAA0BE-D6E4-05E3-B6E7-FD17383C71D4">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:17:25 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kucni_broj" id="6EA27DBA-0008-B05A-4846-88CEE310CD38">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:17:32 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postanski_broj" id="A0E7551A-2BA1-C557-7C2C-2AB8881F35FF">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:17:40 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grad" id="0C9AB0C6-A974-99B4-1632-0F1C8D3468D4">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:17:51 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_kupca" id="7985228A-D60F-A6D6-5E4F-F6E51D7E182A">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:51:06 UTC</createdTime>
+<generatorID>B2AE3028-F897-F323-5A7E-C9A0A3A1EFAC</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<referedAttribute>4211625B-7429-F974-C788-C5A61C5FA74F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e_mail" id="3C69715A-065B-AA9E-4AF5-C70EC6C86AB4">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:51:06 UTC</createdTime>
+<generatorID>B2AE3028-F897-F323-5A7E-C9A0A3A1EFAC</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<referedAttribute>6D6750DC-E0D4-102D-2F0A-FF247E0AF702</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8DBED8E7-1FBE-5829-89D8-1CC603B232C9" name="Adresa kupca PK">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:17:24 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>663D88CC-CA14-7DB9-7532-C756E572A82C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14B1379C-82D8-2DF6-2F3B-CEC2C7C8F895" name="Tim">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:16:05 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TIM</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_tima" id="4F3085D8-A656-1C68-FC22-93291A9994C7">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:16:24 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime_tima" id="0CFE83BC-12AA-04A1-8DB3-BDD22C91DA58">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:16:31 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_igraca" id="A0A35CF7-B12F-80B2-7006-E6201223207A">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:16:39 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Popust" id="E321B9AC-47FC-C12E-2BF3-05E9095EE6EF">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:16:50 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="30B7FDD2-E460-7F73-DACF-C95E2068EE91">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:53:05 UTC</createdTime>
+<generatorID>35EF0169-8E0E-EE8B-15D8-567B1ABF4E89</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<referedAttribute>D631A3E8-A07D-F332-EB75-7E5C0FADA066</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2419CDFF-05A1-F2DD-5C8B-038409825059" name="Tim PK">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-12 12:16:30 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4F3085D8-A656-1C68-FC22-93291A9994C7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
