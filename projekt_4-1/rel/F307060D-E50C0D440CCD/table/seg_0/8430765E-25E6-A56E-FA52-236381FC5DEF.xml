@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8430765E-25E6-A56E-FA52-236381FC5DEF" name="Tim">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>14B1379C-82D8-2DF6-2F3B-CEC2C7C8F895</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<abbreviation>TIM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_tima" id="6EE9993D-7FC8-0E69-82D1-9C6D63C34149">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>4F3085D8-A656-1C68-FC22-93291A9994C7</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime_tima" id="4AB946A5-8FEE-9A7D-D9F5-5F9132E17BAB">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>0CFE83BC-12AA-04A1-8DB3-BDD22C91DA58</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_igraca" id="E0A35149-92E7-EE8A-DDD8-E67D8FB7CB5D">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>A0A35CF7-B12F-80B2-7006-E6201223207A</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Popust" id="4A6B5BFC-A459-3A6C-0649-7933492654E0">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>E321B9AC-47FC-C12E-2BF3-05E9095EE6EF</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Timski_predstavnik_PRE_id" id="0D8CA65F-934A-8752-EA8A-0DCFF602F1C1">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>D9C2859C-174A-1F81-9352-FE3AD8B0BFFE</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F08CF35-5B3A-98F8-5B72-E551FBF09FEC" referredColumn="65B033A2-F0F3-7E13-224C-3628CB25D9F2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE6E0DDE-EDB9-6A9C-9B44-6D1C5639C924" name="Tim_PK">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>2419CDFF-05A1-F2DD-5C8B-038409825059</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EE9993D-7FC8-0E69-82D1-9C6D63C34149"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E518207-AFB6-85B2-3353-22490918D376" name="Tim__IDX">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>67B1D911-EB85-1A63-0CFC-2AD4D8F2F14F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0D8CA65F-934A-8752-EA8A-0DCFF602F1C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E43F1673-8B75-9877-566F-47033D4A976B" name="Tim_Timski_predstavnik_FK">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<generatorID>67B1D911-EB85-1A63-0CFC-2AD4D8F2F14F</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D8CA65F-934A-8752-EA8A-0DCFF602F1C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

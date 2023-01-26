@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE156DD0-0F6D-EB37-EEB2-856A1DBBB720" name="Adresa">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>EB599F6E-B75A-4466-FE8E-36CD90C08A22</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<abbreviation>ADR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="postanski_broj" id="1A1DB940-BFCD-D4D7-03D8-E412A5940C40">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>E67E44B7-B5C0-6961-04B1-1E7D9C3AE5DB</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ulica" id="BA6C2590-94D5-637C-0075-74130FA17CEC">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>C406554C-075B-13DD-482C-CD030DC7F697</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75 CHAR</dataTypeSize>
+<ownDataTypeParameters>75 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kucni_broj" id="CE9782D7-4831-9100-5125-9003B883E088">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>C5A1A7B6-630D-4B96-150E-D32A0211C66D</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grad" id="CA742104-6357-DD07-4FD4-13AE12DEBCF9">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>515A7D27-A96C-93D6-3A32-AD7506152F96</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>85 CHAR</dataTypeSize>
+<ownDataTypeParameters>85 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prodajni_predstavnik_e-mail" id="8ABC2379-9D0A-5FA6-BF8F-AAC12E248040">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>9821E177-E4EB-0346-EEE2-39985D4419B3</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADB4C350-C57F-7935-5CC6-5D815B44CD45" referredColumn="93EC5755-0409-5733-0AD4-52165407DF78"/>
+</associations>
+</Column>
+<Column name="Kupac_KPC_ID_kupca" id="97395DA6-73E1-A62E-35DE-2ADC23FA2BC7">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>1598E032-6E6D-CB55-F047-5C9AEBB9F46E</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51E25F91-9322-BF42-3CD4-54081E96D1B5" referredColumn="BB8504B2-85B6-5EAD-9406-78CC5DD19848"/>
+</associations>
+</Column>
+<Column name="Kupac_KPC_e_mail" id="15895283-3B0F-472E-AA78-1E46180CEFA8">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>AFBEC9DE-BB44-6CFA-2BC5-E886576FED8B</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51E25F91-9322-BF42-3CD4-54081E96D1B5" referredColumn="7210D89B-DF39-6750-88AD-A65C7EF9A764"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F043B796-FA14-2CCE-BAB2-E15CCCC6249D" name="Adresa_PK">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>A2FBF301-0BFB-4FA8-64B7-AB5584B9DFA6</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A1DB940-BFCD-D4D7-03D8-E412A5940C40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B747AB9-F6E4-E6C5-B43E-593A8329B272" name="Adresa_Prodajni_predstavnik_FK">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<generatorID>C8346869-0D77-DC17-EE97-57470C7D07B5</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ABC2379-9D0A-5FA6-BF8F-AAC12E248040"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DABA1299-47D3-9AE8-832B-CF0D29DCC0EA" name="Adresa_Kupac_FK">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<generatorID>4B6080EB-FF19-A3AE-1F87-E21D8A683F64</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97395DA6-73E1-A62E-35DE-2ADC23FA2BC7"/>
+<colUsage columnID="15895283-3B0F-472E-AA78-1E46180CEFA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -24,7 +24,9 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Tim" id="3C541F39-DF86-915D-462B-53DCBB44382B">
@@ -34,19 +36,24 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_tima" id="58BA1F8C-744F-5B00-1B6F-4B15B0E2373D">
+<Attribute name="ID_tima" id="1759742B-E4EC-B99F-53A8-2F10E236E7F7">
 <createdBy>piero</createdBy>
-<createdTime>2023-01-12 12:52:54 UTC</createdTime>
-<generatorID>35EF0169-8E0E-EE8B-15D8-567B1ABF4E89</generatorID>
+<createdTime>2023-01-26 12:52:23 UTC</createdTime>
+<generatorID>67B1D911-EB85-1A63-0CFC-2AD4D8F2F14F</generatorID>
 <ownerDesignName>projekt_4-1</ownerDesignName>
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
 <referedAttribute>4F3085D8-A656-1C68-FC22-93291A9994C7</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
