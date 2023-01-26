@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18890966-F5C9-E5FA-A258-291F7D88377A" name="Artikl">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>4C5C42B0-676F-F3B5-5CF9-7B5F12306956</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<abbreviation>ART</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_artikla" id="C4C40649-C0A2-1002-9681-05CF933CF68F">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>5689069F-A10E-7161-4531-925B14915C47</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="C147BFAC-B94F-E0FC-2DE3-41B1B018BFEB">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>CDA089D1-95B3-6509-8D74-466F3977A19D</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="121EABAA-C738-3316-FA29-46B61BF9F66F">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>7098130B-D4BD-FDE4-1741-560FC275AE27</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grupa_art" id="7620ACD3-C650-7219-6670-5B55ACCE5BCA">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>2BBF448D-7CBB-622C-AB15-A675A20ABDFF</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="boja_art" id="590C611F-4F5F-A3E4-22FA-93C757D7BBF7">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>5B889E86-31B7-B55F-3613-DC4D60E2141E</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="velicina_art" id="DB35DBA0-73EA-57B1-9B13-D4CD2212DCD2">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>2CA0C63B-600B-FA2C-96E8-05D44895F998</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Skladiste_ID_skladista" id="D0347A84-C003-12D9-DDDE-CF858BB78330">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>D0BB2AAD-CCE0-4502-42EA-8966E869497C</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5041377C-81D4-F94C-E7C0-889561607339" referredColumn="BD2CD3C0-6F4F-9884-27DF-D05547D63298"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DF91ED5-7B76-1125-D474-BF21BC11B613" name="Artikl_PK">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>20C70F7C-DD3A-39D9-FC3B-003D78DE54AB</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4C40649-C0A2-1002-9681-05CF933CF68F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAD2BAB5-17AB-8821-6D6E-D6FC75177BA6" name="Artikl_Skladiste_FK">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<generatorID>22FC7E21-BE0E-2A86-D30D-06CDFD967C5E</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0347A84-C003-12D9-DDDE-CF858BB78330"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

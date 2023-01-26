@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB92912E-77B4-A709-3E8C-49D523ECBD75" name="Individualni kupac">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB92912E-77B4-A709-3E8C-49D523ECBD75" name="Kartica Vjernosti">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-12 12:47:57 UTC</createdTime>
 <ownerDesignName>projekt_4-1</ownerDesignName>
@@ -15,27 +15,33 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>IND</shortName>
+<shortName>KAR</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="2B2CBDC8-A7B7-D62E-FEED-C7721BB6A248">
+<Attribute name="broj_kartice" id="2B2CBDC8-A7B7-D62E-FEED-C7721BB6A248">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-12 12:48:21 UTC</createdTime>
 <ownerDesignName>projekt_4-1</ownerDesignName>
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tim" id="61B2AF64-C527-F2FF-5A64-F239A6E14990">
+<Attribute name="popust" id="61B2AF64-C527-F2FF-5A64-F239A6E14990">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-12 12:48:38 UTC</createdTime>
 <ownerDesignName>projekt_4-1</ownerDesignName>
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

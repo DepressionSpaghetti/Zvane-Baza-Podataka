@@ -23,8 +23,11 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75 CHAR</dataTypeSize>
+<ownDataTypeParameters>75 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ime" id="FA645C8D-75DA-D344-2760-DACC3FFD56F5">
 <createdBy>piero</createdBy>
@@ -33,8 +36,11 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="prezime" id="92BC02BF-D69F-F71C-7823-0851672F294B">
 <createdBy>piero</createdBy>
@@ -43,8 +49,11 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="broj_telefona" id="6F95B17E-C0D7-0AC2-4594-C4862F0EF800">
 <createdBy>piero</createdBy>
@@ -53,7 +62,9 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="postotak_provizije" id="A73492F9-0EFC-01ED-2916-EE1B04645DC3">
@@ -63,7 +74,27 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e-mail1" id="FB4058F7-60A6-085E-E6E0-B9008080F119">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:15:26 UTC</createdTime>
+<generatorID>6FFA2498-C095-6CD8-667A-A5A8CFBC0824</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>73D7143B-3F8F-5092-042E-810632D2A7E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -23,7 +23,9 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Ime_tima" id="0CFE83BC-12AA-04A1-8DB3-BDD22C91DA58">
@@ -33,8 +35,11 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Broj_igraca" id="A0A35CF7-B12F-80B2-7006-E6201223207A">
 <createdBy>piero</createdBy>
@@ -43,7 +48,9 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Popust" id="E321B9AC-47FC-C12E-2BF3-05E9095EE6EF">
@@ -54,19 +61,25 @@
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id" id="30B7FDD2-E460-7F73-DACF-C95E2068EE91">
+<Attribute name="id" id="D9C2859C-174A-1F81-9352-FE3AD8B0BFFE">
 <createdBy>piero</createdBy>
-<createdTime>2023-01-12 12:53:05 UTC</createdTime>
-<generatorID>35EF0169-8E0E-EE8B-15D8-567B1ABF4E89</generatorID>
+<createdTime>2023-01-26 12:51:47 UTC</createdTime>
+<generatorID>67B1D911-EB85-1A63-0CFC-2AD4D8F2F14F</generatorID>
 <ownerDesignName>projekt_4-1</ownerDesignName>
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
 <referedAttribute>D631A3E8-A07D-F332-EB75-7E5C0FADA066</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

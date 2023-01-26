@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C03217A-AB87-D693-178D-25AEF58ED8CD" name="Prodajni_predstavnik">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>063789E3-AB48-D5FE-405C-DCCB81836A7F</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<abbreviation>PRP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="e-mail" id="93EC5755-0409-5733-0AD4-52165407DF78">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>73D7143B-3F8F-5092-042E-810632D2A7E5</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75 CHAR</dataTypeSize>
+<ownDataTypeParameters>75 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="39547BCD-CE39-4634-757A-B3A3EAF3FA3B">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>FA645C8D-75DA-D344-2760-DACC3FFD56F5</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="6A243739-C234-5C18-8B1E-94C449CA72BC">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>92BC02BF-D69F-F71C-7823-0851672F294B</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_telefona" id="B0EB1317-AD86-44E7-F0E2-AED31B7C609A">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>6F95B17E-C0D7-0AC2-4594-C4862F0EF800</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postotak_provizije" id="FF219CF2-8D2D-7AF4-A015-C2500DD4A5C2">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>A73492F9-0EFC-01ED-2916-EE1B04645DC3</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prodajni_predstavnik_e-mail" id="431AD882-4356-453E-D019-46B33C96B010">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>FB4058F7-60A6-085E-E6E0-B9008080F119</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47E57EDE-2779-5BD0-6B19-FAF99D43826E" referredColumn="93EC5755-0409-5733-0AD4-52165407DF78"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E76BF602-AD2D-F7AC-EC4F-CD1D299EDFB3" name="Prodajni_predstavnik_PK">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>630364B7-D96F-67F2-03EF-063E78516117</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93EC5755-0409-5733-0AD4-52165407DF78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE909359-F482-A23A-B6A1-341893458A0C" name="Prodajni_predstavnik_Prodajni_predstavnik_FK">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<generatorID>6FFA2498-C095-6CD8-667A-A5A8CFBC0824</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="431AD882-4356-453E-D019-46B33C96B010"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

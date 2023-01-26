@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01CAEA93-784F-6E4D-8454-3272AEFE5126" name="Naruceni_artikl">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>796DFD23-EBC3-65FF-A19C-1C24A84C1754</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<abbreviation>NAR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kolicina_narucenog" id="645278CE-BFA2-18FF-6A1E-DB7E09DF3F0B">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>5AEBCFED-84D5-BAEC-D071-D811A54FAEFE</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kolicina_isporucenog" id="9D356F9E-22DE-EDC4-3DEF-3CEBBF28BB59">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>EC1DF4B2-0394-45AE-A750-D86A1AFAB5D3</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Narudzba_ID_narudzba" id="3240C568-B6DC-E022-0086-FFC4655804A3">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>7F8A9896-8CF2-D14C-44DF-E2B25BE589F9</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8ECC7E01-08E9-149E-561C-6DF2B564289A" referredColumn="DBC04D8A-CA28-7C9F-B7C9-8A61395F3CEA"/>
+</associations>
+</Column>
+<Column name="Artikl_ID_artikla" id="40C5C67A-6190-E91E-5196-257425FA3326">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>C23E8C94-4786-CC44-3BF2-0C465C4A8100</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F8B5E18-7D66-0BF4-60F0-02F29415DDD0" referredColumn="C4C40649-C0A2-1002-9681-05CF933CF68F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C5B04B7-DDDB-3055-7BCE-5A645764E214" name="Naruceni_artikl_PK">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:46 UTC</createdTime>
+<generatorID>1E890A8E-857C-61FA-8E9F-1B995D3BC4BC</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3240C568-B6DC-E022-0086-FFC4655804A3"/>
+<colUsage columnID="40C5C67A-6190-E91E-5196-257425FA3326"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1B2D72C-0904-0C8E-DEFB-872B60E59C87" name="Naruceni_artikl_Narudzba_FK">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<generatorID>738F6939-C18F-3773-4E9F-938DBF61C2E5</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3240C568-B6DC-E022-0086-FFC4655804A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAC23022-86F1-CE5E-60DC-36756EFACBB0" name="Naruceni_artikl_Artikl_FK">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<generatorID>25CC6316-A66F-673C-5530-CAF24AF0730E</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40C5C67A-6190-E91E-5196-257425FA3326"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

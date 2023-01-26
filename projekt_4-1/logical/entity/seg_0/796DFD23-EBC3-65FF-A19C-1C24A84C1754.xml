@@ -23,7 +23,9 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Kolicina_isporucenog" id="EC1DF4B2-0394-45AE-A750-D86A1AFAB5D3">
@@ -33,8 +35,52 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_narudzba" id="7F8A9896-8CF2-D14C-44DF-E2B25BE589F9">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 11:52:07 UTC</createdTime>
+<generatorID>738F6939-C18F-3773-4E9F-938DBF61C2E5</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<referedAttribute>5B355881-0EBB-AB74-D317-E50D904C5582</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_artikla" id="C23E8C94-4786-CC44-3BF2-0C465C4A8100">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 11:53:27 UTC</createdTime>
+<generatorID>25CC6316-A66F-673C-5530-CAF24AF0730E</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<referedAttribute>5689069F-A10E-7161-4531-925B14915C47</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E890A8E-857C-61FA-8E9F-1B995D3BC4BC" name="Naruceni artikl PK">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 11:52:07 UTC</createdTime>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F8A9896-8CF2-D14C-44DF-E2B25BE589F9</attributeRef>
+<attributeRef>C23E8C94-4786-CC44-3BF2-0C465C4A8100</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BDD9F71-082A-711E-4F90-4029FC117AA1" name="Kartica_Vjernosti">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<generatorID>DB92912E-77B4-A709-3E8C-49D523ECBD75</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<abbreviation>KAR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KPC_ID_kupca" id="3D3AB922-516E-F6C7-546A-629A454BB5E7">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<generatorID>4211625B-7429-F974-C788-C5A61C5FA74F</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="491EE1F4-F302-CD2C-2DB2-A7567524DACE" referredColumn="BB8504B2-85B6-5EAD-9406-78CC5DD19848"/>
+</associations>
+</Column>
+<Column name="KPC_e_mail" id="7F386C0E-8AC0-6CFD-F393-E5C103A5A6F1">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<generatorID>6D6750DC-E0D4-102D-2F0A-FF247E0AF702</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="491EE1F4-F302-CD2C-2DB2-A7567524DACE" referredColumn="7210D89B-DF39-6750-88AD-A65C7EF9A764"/>
+</associations>
+</Column>
+<Column name="KAR_broj_kartice" id="931C2CD9-A2B4-0A22-6BCB-B4EE810D15AC">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<generatorID>2B2CBDC8-A7B7-D62E-FEED-C7721BB6A248</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KAR_popust" id="2D7C7FA7-B57E-3555-C6E9-2A6FC0E34E1F">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<generatorID>61B2AF64-C527-F2FF-5A64-F239A6E14990</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC0CA244-D558-C74E-D97F-071C14B19655" name="Kartica_Vjernosti_PK">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<generatorID>D3807534-DA7E-803F-565D-ED027F877273</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D3AB922-516E-F6C7-546A-629A454BB5E7"/>
+<colUsage columnID="7F386C0E-8AC0-6CFD-F393-E5C103A5A6F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9529C653-0C2C-37AA-FA22-A867BC86F8B0" name="Kartica_Vjernosti_PKv1">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<generatorID>8BED90DE-02FD-9DD8-5E3C-46E3C444276A</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="931C2CD9-A2B4-0A22-6BCB-B4EE810D15AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08934E36-3D38-2109-C261-0A4304E9D0E1" name="Kartica_Vjernosti_Kupac_FK">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<generatorID>F0C67EBF-EB17-3060-1357-FCD248DD02EE</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D3AB922-516E-F6C7-546A-629A454BB5E7"/>
+<colUsage columnID="7F386C0E-8AC0-6CFD-F393-E5C103A5A6F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

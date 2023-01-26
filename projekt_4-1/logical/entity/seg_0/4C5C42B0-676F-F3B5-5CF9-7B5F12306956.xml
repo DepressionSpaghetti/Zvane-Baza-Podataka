@@ -23,7 +23,9 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="naziv" id="CDA089D1-95B3-6509-8D74-466F3977A19D">
@@ -33,8 +35,11 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="opis" id="7098130B-D4BD-FDE4-1741-560FC275AE27">
 <createdBy>piero</createdBy>
@@ -43,8 +48,11 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="grupa_art" id="2BBF448D-7CBB-622C-AB15-A675A20ABDFF">
 <createdBy>piero</createdBy>
@@ -53,8 +61,11 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="boja_art" id="5B889E86-31B7-B55F-3613-DC4D60E2141E">
 <createdBy>piero</createdBy>
@@ -64,8 +75,11 @@
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="velicina_art" id="2CA0C63B-600B-FA2C-96E8-05D44895F998">
 <createdBy>piero</createdBy>
@@ -75,7 +89,23 @@
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_skladista" id="D0BB2AAD-CCE0-4502-42EA-8966E869497C">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 11:54:42 UTC</createdTime>
+<generatorID>22FC7E21-BE0E-2A86-D30D-06CDFD967C5E</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<referedAttribute>D1189BE8-EEC8-60AF-C3AD-811DC66A16EE</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

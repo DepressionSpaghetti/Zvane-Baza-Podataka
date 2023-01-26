@@ -23,7 +23,9 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="vrijeme_promjene" id="FCE8C885-7DC2-7F56-F819-3AC0FE035FAD">
@@ -33,7 +35,9 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cijena" id="E736515E-6649-761F-ED04-812AEBB6A3B5">
@@ -43,7 +47,25 @@
 <engineerTo>
 <item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_artikla" id="23E761C2-8AF2-17A1-B17A-67B477E287C7">
+<createdBy>piero</createdBy>
+<createdTime>2023-01-26 11:53:41 UTC</createdTime>
+<generatorID>D1E8684D-AE4D-209F-5BF1-39098FE914E3</generatorID>
+<ownerDesignName>projekt_4-1</ownerDesignName>
+<engineerTo>
+<item key="89B9DC58-35C5-7C83-631F-545D63F01FF3" value="true"/>
+</engineerTo>
+<referedAttribute>5689069F-A10E-7161-4531-925B14915C47</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -59,6 +81,7 @@
 <usedAttributes>
 <attributeRef>94CEB3D3-889B-4DE0-32A2-8DF2DA64CBD0</attributeRef>
 <attributeRef>FCE8C885-7DC2-7F56-F819-3AC0FE035FAD</attributeRef>
+<attributeRef>23E761C2-8AF2-17A1-B17A-67B477E287C7</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
