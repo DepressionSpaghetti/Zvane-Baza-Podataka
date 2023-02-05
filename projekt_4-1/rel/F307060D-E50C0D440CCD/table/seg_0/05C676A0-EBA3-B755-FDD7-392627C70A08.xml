@@ -44,7 +44,7 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Artikl_ID_artikla" id="59CA9F38-F276-0F96-FB12-478F0339080B">
+<Column name="Artikli_ID_artikla" id="59CA9F38-F276-0F96-FB12-478F0339080B">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:46 UTC</createdTime>
 <generatorID>23E761C2-8AF2-17A1-B17A-67B477E287C7</generatorID>
@@ -75,7 +75,7 @@
 <colUsage columnID="59CA9F38-F276-0F96-FB12-478F0339080B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="146016D5-3FB7-95D8-A5F8-4581D19220F3" name="Poviest_cijena_Artikl_FK">
+<ind_PK_UK id="146016D5-3FB7-95D8-A5F8-4581D19220F3" name="Poviest_cijena_Artikli_FK">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:47 UTC</createdTime>
 <generatorID>D1E8684D-AE4D-209F-5BF1-39098FE914E3</generatorID>

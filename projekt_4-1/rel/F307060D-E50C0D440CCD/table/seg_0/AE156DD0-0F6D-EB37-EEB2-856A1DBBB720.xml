@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE156DD0-0F6D-EB37-EEB2-856A1DBBB720" name="Adresa">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE156DD0-0F6D-EB37-EEB2-856A1DBBB720" name="Adrese">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:46 UTC</createdTime>
 <generatorID>EB599F6E-B75A-4466-FE8E-36CD90C08A22</generatorID>
@@ -56,7 +56,7 @@
 <ownDataTypeParameters>85 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Prodajni_predstavnik_e-mail" id="8ABC2379-9D0A-5FA6-BF8F-AAC12E248040">
+<Column name="Prodajni_predstavnik_EML" id="8ABC2379-9D0A-5FA6-BF8F-AAC12E248040">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:46 UTC</createdTime>
 <generatorID>9821E177-E4EB-0346-EEE2-39985D4419B3</generatorID>
@@ -65,14 +65,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>75 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>75 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="ADB4C350-C57F-7935-5CC6-5D815B44CD45" referredColumn="93EC5755-0409-5733-0AD4-52165407DF78"/>
 </associations>
 </Column>
-<Column name="Kupac_KPC_ID_kupca" id="97395DA6-73E1-A62E-35DE-2ADC23FA2BC7">
+<Column name="Kupci_KPC_ID_kupca" id="97395DA6-73E1-A62E-35DE-2ADC23FA2BC7">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:46 UTC</createdTime>
 <generatorID>1598E032-6E6D-CB55-F047-5C9AEBB9F46E</generatorID>
@@ -84,10 +84,10 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="51E25F91-9322-BF42-3CD4-54081E96D1B5" referredColumn="BB8504B2-85B6-5EAD-9406-78CC5DD19848"/>
+<colAssociation fkAssociation="9F46DF8D-A3A5-6ED8-1011-BDE6A550FBEF" referredColumn="BB8504B2-85B6-5EAD-9406-78CC5DD19848"/>
 </associations>
 </Column>
-<Column name="Kupac_KPC_e_mail" id="15895283-3B0F-472E-AA78-1E46180CEFA8">
+<Column name="Kupci_KPC_e_mail" id="15895283-3B0F-472E-AA78-1E46180CEFA8">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:46 UTC</createdTime>
 <generatorID>AFBEC9DE-BB44-6CFA-2BC5-E886576FED8B</generatorID>
@@ -96,11 +96,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>35 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>35 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="51E25F91-9322-BF42-3CD4-54081E96D1B5" referredColumn="7210D89B-DF39-6750-88AD-A65C7EF9A764"/>
+<colAssociation fkAssociation="9F46DF8D-A3A5-6ED8-1011-BDE6A550FBEF" referredColumn="7210D89B-DF39-6750-88AD-A65C7EF9A764"/>
 </associations>
 </Column>
 </columns>
@@ -117,7 +117,7 @@
 <colUsage columnID="1A1DB940-BFCD-D4D7-03D8-E412A5940C40"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3B747AB9-F6E4-E6C5-B43E-593A8329B272" name="Adresa_Prodajni_predstavnik_FK">
+<ind_PK_UK id="3B747AB9-F6E4-E6C5-B43E-593A8329B272" name="Adrese_Prodajni_predstavnik_FK">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:47 UTC</createdTime>
 <generatorID>C8346869-0D77-DC17-EE97-57470C7D07B5</generatorID>
@@ -128,9 +128,9 @@
 <colUsage columnID="8ABC2379-9D0A-5FA6-BF8F-AAC12E248040"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DABA1299-47D3-9AE8-832B-CF0D29DCC0EA" name="Adresa_Kupac_FK">
+<ind_PK_UK id="AC4E9855-34FD-8774-5986-45A1C674652C" name="Adrese_Kupci_FK">
 <createdBy>piero</createdBy>
-<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<createdTime>2023-02-05 14:17:29 UTC</createdTime>
 <generatorID>4B6080EB-FF19-A3AE-1F87-E21D8A683F64</generatorID>
 <ownerDesignName>projekt_4-1</ownerDesignName>
 <indexState>Foreign Key</indexState>

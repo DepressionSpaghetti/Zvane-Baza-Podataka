@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3F8B5E18-7D66-0BF4-60F0-02F29415DDD0" containerWithKeyObject="01CAEA93-784F-6E4D-8454-3272AEFE5126" localFKIndex="CAC23022-86F1-CE5E-60DC-36756EFACBB0" name="Naruceni_artikl_Artikl_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3F8B5E18-7D66-0BF4-60F0-02F29415DDD0" containerWithKeyObject="01CAEA93-784F-6E4D-8454-3272AEFE5126" localFKIndex="CAC23022-86F1-CE5E-60DC-36756EFACBB0" name="Naruceni_Artikli_Artikli_FK">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:47 UTC</createdTime>
 <generatorID>25CC6316-A66F-673C-5530-CAF24AF0730E</generatorID>
 <ownerDesignName>projekt_4-1</ownerDesignName>
-<referredTableLongName>Artikl</referredTableLongName>
+<referredTableLongName>Artikli</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>18890966-F5C9-E5FA-A258-291F7D88377A</referredTableID>
 <keyObject>4DF91ED5-7B76-1125-D474-BF21BC11B613</keyObject>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01CAEA93-784F-6E4D-8454-3272AEFE5126" name="Naruceni_artikl">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01CAEA93-784F-6E4D-8454-3272AEFE5126" name="Naruceni_Artikli">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:46 UTC</createdTime>
 <generatorID>796DFD23-EBC3-65FF-A19C-1C24A84C1754</generatorID>
@@ -31,7 +31,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Narudzba_ID_narudzba" id="3240C568-B6DC-E022-0086-FFC4655804A3">
+<Column name="Narudzbe_ID_narudzba" id="3240C568-B6DC-E022-0086-FFC4655804A3">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:46 UTC</createdTime>
 <generatorID>7F8A9896-8CF2-D14C-44DF-E2B25BE589F9</generatorID>
@@ -46,7 +46,7 @@
 <colAssociation fkAssociation="8ECC7E01-08E9-149E-561C-6DF2B564289A" referredColumn="DBC04D8A-CA28-7C9F-B7C9-8A61395F3CEA"/>
 </associations>
 </Column>
-<Column name="Artikl_ID_artikla" id="40C5C67A-6190-E91E-5196-257425FA3326">
+<Column name="Artikli_ID_artikla" id="40C5C67A-6190-E91E-5196-257425FA3326">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:46 UTC</createdTime>
 <generatorID>C23E8C94-4786-CC44-3BF2-0C465C4A8100</generatorID>
@@ -76,7 +76,7 @@
 <colUsage columnID="40C5C67A-6190-E91E-5196-257425FA3326"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E1B2D72C-0904-0C8E-DEFB-872B60E59C87" name="Naruceni_artikl_Narudzba_FK">
+<ind_PK_UK id="E1B2D72C-0904-0C8E-DEFB-872B60E59C87" name="Naruceni_Artikli_Narudzbe_FK">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:47 UTC</createdTime>
 <generatorID>738F6939-C18F-3773-4E9F-938DBF61C2E5</generatorID>
@@ -87,7 +87,7 @@
 <colUsage columnID="3240C568-B6DC-E022-0086-FFC4655804A3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CAC23022-86F1-CE5E-60DC-36756EFACBB0" name="Naruceni_artikl_Artikl_FK">
+<ind_PK_UK id="CAC23022-86F1-CE5E-60DC-36756EFACBB0" name="Naruceni_Artikli_Artikli_FK">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:47 UTC</createdTime>
 <generatorID>25CC6316-A66F-673C-5530-CAF24AF0730E</generatorID>

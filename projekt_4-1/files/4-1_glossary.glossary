@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<cwd_glossary name="projekt_4-1" description="generated from logical model of design projekt_4-1" id="9B51383E-43FD-ADB4-DA1D-FD61199E94FF" incomplete_modifiers="true" >
+
+   <glossaryWord name="Adresa" plural="Adrese" abbreviation="ADR" alt_abbreviation="" id="730AAB5D-4892-29E9-D2AA-CBD9AEE846D3" import_id="" description="" />
+   <glossaryWord name="Artikl" plural="Artikli" abbreviation="ART" alt_abbreviation="" id="AE70222D-449C-8683-D3EC-9FE4B824D886" import_id="" description="" />
+   <glossaryWord name="Broj_igraca" plural="" abbreviation="" alt_abbreviation="" id="2DF45FA4-D986-8A01-38B7-FA2A390270B3" import_id="" description="" />
+   <glossaryWord name="Datum" plural="" abbreviation="" alt_abbreviation="" id="50FC7805-DD79-EC62-1E83-9FC23F03501D" import_id="" description="" />
+   <glossaryWord name="ID_artikla" plural="" abbreviation="" alt_abbreviation="" id="A6D2744C-DCD3-B07A-1200-A9D0AF07DE45" import_id="" description="" />
+   <glossaryWord name="ID_kupca" plural="" abbreviation="" alt_abbreviation="" id="78200888-FBD2-65B7-37EB-52A0293FF305" import_id="" description="" />
+   <glossaryWord name="ID_narudzba" plural="" abbreviation="" alt_abbreviation="" id="8B66C7D9-38A6-9E92-5844-6FAEDBA2DB5F" import_id="" description="" />
+   <glossaryWord name="ID_skladista" plural="" abbreviation="" alt_abbreviation="" id="ECAD34B9-5B13-E683-CFBE-0E288153EE0D" import_id="" description="" />
+   <glossaryWord name="ID_tima" plural="" abbreviation="" alt_abbreviation="" id="0F21F7DE-7F4C-8730-FB58-79B2C54BBAB9" import_id="" description="" />
+   <glossaryWord name="Ime_tima" plural="" abbreviation="" alt_abbreviation="" id="6B2A778B-582B-9C4E-D3E5-FBBDF9A652AA" import_id="" description="" />
+   <glossaryWord name="Iznos" plural="" abbreviation="" alt_abbreviation="" id="7D1B9CEE-4176-F8B5-9C71-1930E5DBA5B7" import_id="" description="" />
+   <glossaryWord name="Kartica Vjernosti" plural="Kartice_vjernosti" abbreviation="KAR" alt_abbreviation="" id="F8434B25-71A9-90E0-985F-50AE70C03452" import_id="" description="" />
+   <glossaryWord name="Kolicina_dostupnog" plural="" abbreviation="" alt_abbreviation="" id="47476B83-1018-3EBC-CDC1-626A9179D804" import_id="" description="" />
+   <glossaryWord name="Kolicina_isporucenog" plural="" abbreviation="" alt_abbreviation="" id="D6C6A8CE-CC99-F04E-A438-18129D2FF9DE" import_id="" description="" />
+   <glossaryWord name="Kolicina_narucenog" plural="" abbreviation="" alt_abbreviation="" id="90C96FBA-B5CE-5959-C19F-672667DF9666" import_id="" description="" />
+   <glossaryWord name="Naruceni artikl" plural="Naruceni_artikli" abbreviation="NRA" alt_abbreviation="" id="22FCF6EF-55D5-4A1F-BF1F-086FE3C0A474" import_id="" description="" />
+   <glossaryWord name="Narudzba" plural="Narudzbe" abbreviation="NAR" alt_abbreviation="" id="7F9434F7-6A08-8614-0EC8-CEA4EEB6912B" import_id="" description="" />
+   <glossaryWord name="Povijest_cijena" plural="Povijesti_Cijena" abbreviation="POV" alt_abbreviation="" id="F43461EF-F67C-5693-6C98-711AA183C52B" import_id="" description="" />
+   <glossaryWord name="Prodajni predstavnik" plural="Prodajni_predstavnici" abbreviation="PRP" alt_abbreviation="" id="522F0E64-092E-CDEA-2D07-DD0CB10C1E74" import_id="" description="" />
+   <glossaryWord name="Skladiste" plural="Skladista" abbreviation="SKL" alt_abbreviation="" id="29F22DDB-B11D-88B6-BE02-0CBCC03AAFF3" import_id="" description="" />
+   <glossaryWord name="Tim" plural="Timovi" abbreviation="TIM" alt_abbreviation="" id="65D2C1B1-B77F-0CCD-DB46-FEED9E966E80" import_id="" description="" />
+   <glossaryWord name="Timski predstavnik" plural="Timski_predstavnici" abbreviation="TPR" alt_abbreviation="" id="C3D8AB0E-4FE1-D86F-3533-00326BCC50F2" import_id="" description="" />
+   <glossaryWord name="Vjernosti" plural="" abbreviation="" alt_abbreviation="" id="6EDAC9DA-2E3E-C213-30BD-05BAADFF6AC1" import_id="" description="" />
+   <glossaryWord name="Vrijeme" plural="" abbreviation="" alt_abbreviation="" id="A49F09AE-2C3E-C3F7-6722-CF1ACC9129E6" import_id="" description="" />
+   <glossaryWord name="boja_art" plural="" abbreviation="" alt_abbreviation="" id="6AD3C8DC-574C-4F23-11D1-26DA8A02875C" import_id="" description="" />
+   <glossaryWord name="broj_kartice" plural="" abbreviation="" alt_abbreviation="" id="6B447CF3-D5B0-9BA4-7DF4-FEFBCA3560BF" import_id="" description="" />
+   <glossaryWord name="broj_telefona" plural="" abbreviation="" alt_abbreviation="" id="E62673E2-A276-AB34-A553-CC921E6E9633" import_id="" description="" />
+   <glossaryWord name="cijena" plural="" abbreviation="" alt_abbreviation="" id="86FD4D1D-EA70-0975-0941-32C2C123CE9B" import_id="" description="" />
+   <glossaryWord name="datum_promjena" plural="" abbreviation="" alt_abbreviation="" id="B5C7FC2C-B9FE-6239-94AF-3499FB5B5530" import_id="" description="" />
+   <glossaryWord name="e-mail" plural="" abbreviation="" alt_abbreviation="" id="1B5450D3-5141-9FE2-1F3C-3CFB922FDF5F" import_id="" description="" />
+   <glossaryWord name="e_mail" plural="" abbreviation="" alt_abbreviation="" id="B068AF0A-D3FB-B765-9F1F-B2D7D3E05598" import_id="" description="" />
+   <glossaryWord name="grad" plural="" abbreviation="" alt_abbreviation="" id="AB99DFA2-3A2B-E151-255A-383CF6A8428B" import_id="" description="" />
+   <glossaryWord name="grupa_art" plural="" abbreviation="" alt_abbreviation="" id="C4618588-B2C0-53F2-4A56-9E0B15E9AFF6" import_id="" description="" />
+   <glossaryWord name="id" plural="" abbreviation="" alt_abbreviation="" id="C8A35784-ED2B-0C21-F8CE-9481CF01F45E" import_id="" description="" />
+   <glossaryWord name="ime" plural="" abbreviation="" alt_abbreviation="" id="D3C276B8-E8A6-E003-7AFB-203180178C25" import_id="" description="" />
+   <glossaryWord name="kucni_broj" plural="" abbreviation="" alt_abbreviation="" id="745AC431-7347-7E49-527A-1113FD62728B" import_id="" description="" />
+   <glossaryWord name="Kupac" plural="Kupci" abbreviation="KPC" alt_abbreviation="" id="28F4492D-963A-6242-56A0-13AF6E8CCBC3" import_id="" description="" />
+   <glossaryWord name="naziv" plural="" abbreviation="" alt_abbreviation="" id="F9026AB5-04DC-9967-981C-1C0036CB0F3E" import_id="" description="" />
+   <glossaryWord name="opis" plural="" abbreviation="" alt_abbreviation="" id="5511810B-C53A-810D-A492-E8405C6458FF" import_id="" description="" />
+   <glossaryWord name="popust" plural="" abbreviation="" alt_abbreviation="" id="6C58ED83-C5BA-597F-7EB7-10DDE9E7CDEE" import_id="" description="" />
+   <glossaryWord name="postanski_broj" plural="" abbreviation="" alt_abbreviation="" id="BDBC8A79-3012-57FE-8FAA-4BD4E8D37D49" import_id="" description="" />
+   <glossaryWord name="postotak_provizije" plural="" abbreviation="" alt_abbreviation="" id="08285632-2EED-F3CC-06AF-9C53BC7AD0D9" import_id="" description="" />
+   <glossaryWord name="prezime" plural="" abbreviation="" alt_abbreviation="" id="2A4EE207-0D32-ABFC-2013-41CC991C6A75" import_id="" description="" />
+   <glossaryWord name="ulica" plural="" abbreviation="" alt_abbreviation="" id="4D0872FF-CA8D-9256-95FB-4BF2FD346C4F" import_id="" description="" />
+   <glossaryWord name="velicina_art" plural="" abbreviation="" alt_abbreviation="" id="B6516665-3EC6-DB76-A9C8-38EE2AAE1605" import_id="" description="" />
+   <glossaryWord name="vrijeme_promjene" plural="" abbreviation="" alt_abbreviation="" id="377565AC-F0ED-685D-6F69-5D8D0099276B" import_id="" description="" />
+
+</cwd_glossary>

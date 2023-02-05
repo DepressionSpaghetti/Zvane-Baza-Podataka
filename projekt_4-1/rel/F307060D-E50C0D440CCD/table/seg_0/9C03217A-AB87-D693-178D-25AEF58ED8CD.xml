@@ -69,7 +69,7 @@
 <ownDataTypeParameters>,4,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Prodajni_predstavnik_e-mail" id="431AD882-4356-453E-D019-46B33C96B010">
+<Column name="Prodajni_predstavnik_EML" id="431AD882-4356-453E-D019-46B33C96B010">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:46 UTC</createdTime>
 <generatorID>FB4058F7-60A6-085E-E6E0-B9008080F119</generatorID>
@@ -79,7 +79,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>75 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>75 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
