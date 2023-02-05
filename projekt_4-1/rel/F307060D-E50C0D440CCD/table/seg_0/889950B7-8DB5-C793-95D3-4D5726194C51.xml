@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="889950B7-8DB5-C793-95D3-4D5726194C51" name="Narudzba">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="889950B7-8DB5-C793-95D3-4D5726194C51" name="Narudzbe">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:46 UTC</createdTime>
 <generatorID>0EE8347A-E1DD-9D52-D783-668375504D9C</generatorID>
@@ -42,7 +42,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Artikl" id="C4B24D98-4797-0F89-A47B-8338E0C4E8DE">
+<Column name="ART" id="C4B24D98-4797-0F89-A47B-8338E0C4E8DE">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:46 UTC</createdTime>
 <generatorID>DE142DB3-6348-7559-4292-7C6A2A6E0FFE</generatorID>
@@ -67,7 +67,7 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Kupac_KPC_ID_kupca" id="9A91E691-2AE7-156D-E5EF-C100DF44BC6B">
+<Column name="Kupci_KPC_ID_kupca" id="9A91E691-2AE7-156D-E5EF-C100DF44BC6B">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:46 UTC</createdTime>
 <generatorID>BAB0160C-777F-6217-C24E-CF08B1EC9F5A</generatorID>
@@ -79,10 +79,10 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="90E49EC9-3A67-A76B-D598-2591506D47CD" referredColumn="BB8504B2-85B6-5EAD-9406-78CC5DD19848"/>
+<colAssociation fkAssociation="BA1DA96E-2616-4B1A-CFF3-2B23D7D5490E" referredColumn="BB8504B2-85B6-5EAD-9406-78CC5DD19848"/>
 </associations>
 </Column>
-<Column name="Kupac_KPC_e_mail" id="C3CE9244-BE95-FAD2-522F-76AFCDC10CCA">
+<Column name="Kupci_KPC_e_mail" id="C3CE9244-BE95-FAD2-522F-76AFCDC10CCA">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:46 UTC</createdTime>
 <generatorID>9169CF8D-E06A-411C-8B64-829E29F8A7ED</generatorID>
@@ -91,11 +91,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>35 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>35 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="90E49EC9-3A67-A76B-D598-2591506D47CD" referredColumn="7210D89B-DF39-6750-88AD-A65C7EF9A764"/>
+<colAssociation fkAssociation="BA1DA96E-2616-4B1A-CFF3-2B23D7D5490E" referredColumn="7210D89B-DF39-6750-88AD-A65C7EF9A764"/>
 </associations>
 </Column>
 </columns>
@@ -112,9 +112,9 @@
 <colUsage columnID="DBC04D8A-CA28-7C9F-B7C9-8A61395F3CEA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="209A93CD-5405-9844-1D19-2D6CDBC380FF" name="Narudzba_Kupac_FK">
+<ind_PK_UK id="B3CDE4A8-1570-74A7-16E2-F09EDF5C72F6" name="Narudzbe_Kupci_FK">
 <createdBy>piero</createdBy>
-<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<createdTime>2023-02-05 14:17:29 UTC</createdTime>
 <generatorID>A14BC863-B84E-F9D9-07F2-1B7565063451</generatorID>
 <ownerDesignName>projekt_4-1</ownerDesignName>
 <indexState>Foreign Key</indexState>

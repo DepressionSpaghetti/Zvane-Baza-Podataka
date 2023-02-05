@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18890966-F5C9-E5FA-A258-291F7D88377A" name="Artikl">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18890966-F5C9-E5FA-A258-291F7D88377A" name="Artikli">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:46 UTC</createdTime>
 <generatorID>4C5C42B0-676F-F3B5-5CF9-7B5F12306956</generatorID>
@@ -82,7 +82,7 @@
 <ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Skladiste_ID_skladista" id="D0347A84-C003-12D9-DDDE-CF858BB78330">
+<Column name="Skladista_ID_skladista" id="D0347A84-C003-12D9-DDDE-CF858BB78330">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:46 UTC</createdTime>
 <generatorID>D0BB2AAD-CCE0-4502-42EA-8966E869497C</generatorID>
@@ -111,7 +111,7 @@
 <colUsage columnID="C4C40649-C0A2-1002-9681-05CF933CF68F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CAD2BAB5-17AB-8821-6D6E-D6FC75177BA6" name="Artikl_Skladiste_FK">
+<ind_PK_UK id="CAD2BAB5-17AB-8821-6D6E-D6FC75177BA6" name="Artikli_Skladista_FK">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:47 UTC</createdTime>
 <generatorID>22FC7E21-BE0E-2A86-D30D-06CDFD967C5E</generatorID>

@@ -49,7 +49,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PRE_Tim" id="31A5CE9F-6427-803E-11BF-F461F4EECCF9">
+<Column name="PRE_TIM" id="31A5CE9F-6427-803E-11BF-F461F4EECCF9">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:47 UTC</createdTime>
 <generatorID>3C541F39-DF86-915D-462B-53DCBB44382B</generatorID>
@@ -61,7 +61,7 @@
 <ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Tim_ID_tima" id="DE36E973-A3CA-C840-30A0-5C87EADE9607">
+<Column name="Timovi_ID_tima" id="DE36E973-A3CA-C840-30A0-5C87EADE9607">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:47 UTC</createdTime>
 <generatorID>1759742B-E4EC-B99F-53A8-2F10E236E7F7</generatorID>
@@ -73,7 +73,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="2C54587E-A082-6CFF-08EC-BBC971DC4349" referredColumn="6EE9993D-7FC8-0E69-82D1-9C6D63C34149"/>
+<colAssociation fkAssociation="AB656016-7C2C-D705-46C7-E73B46BC762A" referredColumn="6EE9993D-7FC8-0E69-82D1-9C6D63C34149"/>
 </associations>
 </Column>
 </columns>
@@ -125,9 +125,9 @@
 <colUsage columnID="CF568DA1-7AF3-EB68-3C29-059DBFEE595E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8B6059DB-F00E-B306-54CE-67C5F9D1A084" name="Timski_predstavnik_Tim_FK">
+<ind_PK_UK id="5B033012-773A-4E8F-D591-09DD318D9BF5" name="Timski_predstavnik_Timovi_FK">
 <createdBy>piero</createdBy>
-<createdTime>2023-01-26 12:53:47 UTC</createdTime>
+<createdTime>2023-02-05 14:17:29 UTC</createdTime>
 <generatorID>67B1D911-EB85-1A63-0CFC-2AD4D8F2F14F</generatorID>
 <ownerDesignName>projekt_4-1</ownerDesignName>
 <indexState>Foreign Key</indexState>

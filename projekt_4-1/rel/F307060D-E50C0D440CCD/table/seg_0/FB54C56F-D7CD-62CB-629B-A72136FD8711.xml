@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB54C56F-D7CD-62CB-629B-A72136FD8711" name="Kupac">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB54C56F-D7CD-62CB-629B-A72136FD8711" name="Kupci">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:46 UTC</createdTime>
 <generatorID>CF874551-4240-712C-5ECB-C54925F8D0E6</generatorID>
@@ -67,7 +67,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Prodajni_predstavnik_e-mail" id="37B8D416-346E-AA04-56E2-A042AD63FE15">
+<Column name="Prodajni_predstavnik_EML" id="37B8D416-346E-AA04-56E2-A042AD63FE15">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:47 UTC</createdTime>
 <generatorID>87B7AE73-75BF-FDC1-667C-798741927BDE</generatorID>
@@ -77,7 +77,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>75 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>75 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -86,7 +86,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D5961B52-726F-89E6-3E3C-73D9B98F15E1" name="Kupac_PK">
+<ind_PK_UK id="D5961B52-726F-89E6-3E3C-73D9B98F15E1" name="Kupci_PK">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:47 UTC</createdTime>
 <generatorID>D3807534-DA7E-803F-565D-ED027F877273</generatorID>
@@ -99,7 +99,7 @@
 <colUsage columnID="7210D89B-DF39-6750-88AD-A65C7EF9A764"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="19CDE63A-5EFC-604A-C3AA-68EB56848730" name="Kupac_Prodajni_predstavnik_FK">
+<ind_PK_UK id="19CDE63A-5EFC-604A-C3AA-68EB56848730" name="Kupci_Prodajni_predstavnik_FK">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:47 UTC</createdTime>
 <generatorID>3C60BF8F-E1AB-77E6-2C10-086976B42C05</generatorID>

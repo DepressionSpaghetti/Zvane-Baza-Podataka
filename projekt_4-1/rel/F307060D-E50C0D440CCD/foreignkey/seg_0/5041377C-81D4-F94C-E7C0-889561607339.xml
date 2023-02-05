@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5041377C-81D4-F94C-E7C0-889561607339" containerWithKeyObject="18890966-F5C9-E5FA-A258-291F7D88377A" localFKIndex="CAD2BAB5-17AB-8821-6D6E-D6FC75177BA6" name="Artikl_Skladiste_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5041377C-81D4-F94C-E7C0-889561607339" containerWithKeyObject="18890966-F5C9-E5FA-A258-291F7D88377A" localFKIndex="CAD2BAB5-17AB-8821-6D6E-D6FC75177BA6" name="Artikli_Skladista_FK">
 <createdBy>piero</createdBy>
 <createdTime>2023-01-26 12:53:47 UTC</createdTime>
 <generatorID>22FC7E21-BE0E-2A86-D30D-06CDFD967C5E</generatorID>
 <ownerDesignName>projekt_4-1</ownerDesignName>
-<referredTableLongName>Skladiste</referredTableLongName>
+<referredTableLongName>Skladista</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>8062AC40-A671-74F2-899A-35012F2D778A</referredTableID>
 <keyObject>05907C53-DBFB-CA7A-5527-F51E23DAAB53</keyObject>
